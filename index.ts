@@ -13,8 +13,8 @@ canvasCtx.scale(window.devicePixelRatio, window.devicePixelRatio); //设置缩�
 
 const fd = new ForceDirected(nodes, edges, {
   animation: true,
-  width: $canvas.clientWidth,
-  height: $canvas.clientHeight,
+  width: 1000,
+  height: 600,
   repulsion: 30,
   traction: 2,
   gravitation: 1,
